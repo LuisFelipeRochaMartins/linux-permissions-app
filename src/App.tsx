@@ -3,6 +3,7 @@ import { UserToGroup } from "./components/user-to-group";
 import { FilePermissions } from "./components/file-permissions";
 import CreateUser from "./components/create-user";
 import { GroupPermissions } from "./components/groups-permissions";
+import CreateGroup from "./components/create-group";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <UserToGroup />
       <FilePermissions />
       <CreateUser />
+      <CreateGroup />
       <GroupPermissions />
     </main>
   );
