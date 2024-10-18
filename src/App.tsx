@@ -1,9 +1,9 @@
 import "./index.css";
 import { UserToGroup } from "./components/user-to-group";
 import { FilePermissions } from "./components/file-permissions";
-import CreateUser from "./components/create-user";
+import { CreateUser } from "./components/create-user";
 import { GroupPermissions } from "./components/groups-permissions";
-import CreateGroup from "./components/create-group";
+import { CreateGroup } from "./components/create-group";
 
 function App() {
   return (

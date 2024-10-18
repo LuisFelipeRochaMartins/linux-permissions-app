@@ -1,7 +1,7 @@
 import { useState } from "react"
 import type { ChangeEvent, FormEvent } from 'react'
 
-export default  function CreateUser() {
+export function CreateUser() {
   const [user, setUser] = useState("")
   const [comando, setComando] = useState("")
 

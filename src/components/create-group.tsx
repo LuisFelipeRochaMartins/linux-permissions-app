@@ -1,7 +1,7 @@
 import { useState } from "react"
 import type { ChangeEvent, FormEvent } from 'react'
 
-export default  function CreateGroup() {
+export  function CreateGroup() {
   const [group, setGroup] = useState("")
   const [comando, setComando] = useState("")
 
@@ -20,12 +20,12 @@ export default  function CreateGroup() {
       <div className="flex flex-col flex-wrap w-[600px] h-[450px] ring-2 ring-black  rounded-lg items-center gap-4 p-5">
         <div className="m-3">
           <h2 className="font-semibold text-3xl">
-            Criar Usuário
+            Criar Grupo
           </h2>
         </div>
         <div className="flex flex-row gap-3 ring-2 ring-black p-3 rounded-md items-center w-full justify-between">
           <label className="font-semibold text-lg" htmlFor="group">
-            Nome do Usuário
+            Nome do Grupo
           </label>
           <input
             className="w-[400px] text-lg px-2 focus:outline-none text-black rounded-md font-semibold h-10"
